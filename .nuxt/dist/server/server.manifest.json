@@ -1,0 +1,21 @@
+{
+  "entry": "server.js",
+  "files": {
+    "6.js": "6.js",
+    "pages/about.js": "pages/about.js",
+    "pages/feedback.js": "pages/feedback.js",
+    "pages/gallery/_uid.js": "pages/gallery/_uid.js",
+    "pages/gallery/index.js": "pages/gallery/index.js",
+    "pages/index.js": "pages/index.js",
+    "server.js": "server.js"
+  },
+  "maps": {
+    "6.js": "6.js.map",
+    "pages/about.js": "pages/about.js.map",
+    "pages/feedback.js": "pages/feedback.js.map",
+    "pages/gallery/_uid.js": "pages/gallery/_uid.js.map",
+    "pages/gallery/index.js": "pages/gallery/index.js.map",
+    "pages/index.js": "pages/index.js.map",
+    "server.js": "server.js.map"
+  }
+}

@@ -1,19 +1,15 @@
 export default function(doc) {
 
-  if (doc.isBroken) {
-    return '/not-found'
-  }
-
-  if (doc.type === 'gallery') {
-    return '/gallery'
+  if (doc.type === 'photo') {
+    return "/gallery/" + doc.uid
   }
 
   if (doc.type === 'about') {
-    return '/about'
+    return '/about/'
   }
 
   if (doc.type === 'feedback') {
-    return '/feedback'
+    return '/feedback/'
   }
 
   return "/not-found";

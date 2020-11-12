@@ -10,7 +10,7 @@
 </div>
 </div>
 <div class="bottom">
-  <p>"Make sure this virus doesn't get you, enter at your own risk !"</p>
+  <p>"This is not a virus. It’s a highly contagious Shutterbug. And I got bitten."</p>
 <a href="/gallery" class="uk-button enter" @click="clicked = !clicked">Enter</a>
 </div>
 </div>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c2c6bd77-d8cd-417c-9c3c-8f3a951d2f8a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/components/Tags.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layouts/details.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/gallery/_uid.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/gallery/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Gallery.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Modals.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Offcanvas.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/Offcanvas.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/.nojekyll" beforeDir="false" afterPath="$PROJECT_DIR$/components/Photos.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/200.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/1224c16.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/3177125.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/34b8e50.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/3f1949c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/622ef44.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/LICENSES" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/a1ed8f3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/bb1439d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/dd719ae.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/e3f7506.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/e882bad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/icons/icon_120x120.2227fa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/icons/icon_144x144.2227fa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/icons/icon_152x152.2227fa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/icons/icon_192x192.2227fa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/icons/icon_384x384.2227fa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/icons/icon_512x512.2227fa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/icons/icon_64x64.2227fa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/icons/splash_ipad_1536x2048.2227fa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/icons/splash_ipadpro10_1668x2224.2227fa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/icons/splash_ipadpro12_2048x2732.2227fa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/icons/splash_ipadpro9_1536x2048.2227fa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/icons/splash_iphone6_50x1334.2227fa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/icons/splash_iphoneplus_1080x1920.2227fa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/icons/splash_iphonese_640x1136.2227fa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/icons/splash_iphonex_1125x2436.2227fa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/icons/splash_iphonexr_828x1792.2227fa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/icons/splash_iphonexsmax_1242x2688.2227fa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/manifest.679d96c6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1603905725/about/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1603905725/feedback/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1603905725/gallery/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1603905725/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1603905725/preview/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/about/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/about/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/about/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/feedback/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/feedback/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/feedback/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/preview/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/preview/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/preview/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/sw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/initial" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/feedback.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/feedback.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/gallery.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/link-resolver.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/link-resolver.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1jEP8w2bDPQSX4JOucDLgRMsF60" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+    <property name="vuejs.nuxt.types-notification-shown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/layouts" />
+      <recent name="$PROJECT_DIR$/components" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c2c6bd77-d8cd-417c-9c3c-8f3a951d2f8a" name="Default Changelist" comment="" />
+      <created>1603366122347</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603366122347</updated>
+      <workItem from="1603366123467" duration="16038000" />
+      <workItem from="1603437641106" duration="20831000" />
+      <workItem from="1603716561527" duration="6257000" />
+      <workItem from="1603723763480" duration="2550000" />
+      <workItem from="1603784712262" duration="17801000" />
+      <workItem from="1603874353451" duration="2617000" />
+      <workItem from="1603890218051" duration="4640000" />
+      <workItem from="1603898615920" duration="6733000" />
+      <workItem from="1604303881472" duration="4000" />
+      <workItem from="1605014723863" duration="9441000" />
+      <workItem from="1605081860177" duration="108000" />
+      <workItem from="1605083532497" duration="11569000" />
+      <workItem from="1605100134825" duration="12873000" />
+      <workItem from="1605172297103" duration="8811000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="796" y="218" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603790955528">
+      <screen x="0" y="23" width="2048" height="1042" />
+    </state>
+    <state x="796" y="218" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.2048.1042@0.23.2048.1042" timestamp="1603790955528" />
+  </component>
+</project>

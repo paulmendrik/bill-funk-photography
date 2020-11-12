@@ -11,7 +11,7 @@
 <div class="uk-width-1-1@m content">
 <prismic-rich-text :field="feedback.text"/>
 </div>
-<div class="uk-width-1-1@m uk-flex-first">
+<div class="uk-width-1-1@m uk-flex-first uk-margin-medium-bottom">
 <img :data-src="feedback.image.url" width="100%" height="" uk-img>
 </div>
 </div>
