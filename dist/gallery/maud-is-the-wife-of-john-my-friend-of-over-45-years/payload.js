@@ -1,0 +1,1 @@
+window.__NUXT__={staticAssetsBase:"/_nuxt/static/1605272667",layout:"details",error:null,serverRendered:!0,routePath:"/gallery/maud-is-the-wife-of-john-my-friend-of-over-45-years",config:{}}

@@ -11,7 +11,7 @@
 </div>
 <div class="bottom">
   <p>"This is not a virus. It’s a highly contagious Shutterbug. And I got bitten."</p>
-<a href="/gallery" class="uk-button enter" @click="clicked = !clicked">Enter</a>
+<a href="/gallery" class="uk-button" @click="clicked = !clicked">Enter</a>
 </div>
 </div>
 </template>

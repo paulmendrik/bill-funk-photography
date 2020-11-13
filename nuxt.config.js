@@ -20,7 +20,6 @@ export default {
   },
   loading: { color: "#fff" },
   css: ["~/assets/css/app.css"],
-  plugins: [{ src: "~/plugins/prismicLinks", ssr: false }],
   modules: ["nuxt-vuikit","@nuxtjs/svg", "@nuxtjs/pwa", "nuxt-lazy-load", "@/modules/static", "@/modules/crawler", "@nuxtjs/prismic"],
   prismic : {
     endpoint: 'https://funk.cdn.prismic.io/api/v2',

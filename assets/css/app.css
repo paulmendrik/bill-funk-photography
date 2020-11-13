@@ -202,8 +202,6 @@ ul.uk-nav li.uk-nav-header {
 }
 
 .bottom a.enter {
-  padding-top: 2rem !important;
-  padding-bottom: 2rem !important;
   background: none;
   font-family: halyard-display, sans-serif;
   font-size: 1.25rem !important;
@@ -283,6 +281,14 @@ h3.uk-card-title > div > *  {
 .details h1  {
   margin: 2rem 0;
   font-size:2.5rem !important
+}
+
+.image {
+  text-align: center;
+}
+
+.image > a {
+  margin: 0 auto !important;
 }
 
 /*Feedback*/
