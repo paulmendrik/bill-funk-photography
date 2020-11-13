@@ -1,1 +1,1 @@
-window.__NUXT__={staticAssetsBase:"/_nuxt/static/1605191434",layout:"default",error:null,serverRendered:!0,routePath:"/gallery",config:{}}
+window.__NUXT__={staticAssetsBase:"/_nuxt/static/1605265083",layout:"default",error:null,serverRendered:!0,routePath:"/gallery",config:{}}

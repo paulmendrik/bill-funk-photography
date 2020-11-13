@@ -2,42 +2,42 @@
   {
     "name": "prismic-preview",
     "path": "/preview",
-    "component": "/Users/paul/bill-funk-rocks/.nuxt/prismic/pages/preview.vue",
-    "_name": "_658fa440"
+    "component": "/Users/paul/bill-funk-photography/.nuxt/prismic/pages/preview.vue",
+    "_name": "_6460474f"
   },
   {
     "name": "about",
     "path": "/about",
-    "component": "/Users/paul/bill-funk-rocks/pages/about.vue",
+    "component": "/Users/paul/bill-funk-photography/pages/about.vue",
     "chunkName": "pages/about",
-    "_name": "_59eba7b7"
+    "_name": "_29fa7f26"
   },
   {
     "name": "feedback",
     "path": "/feedback",
-    "component": "/Users/paul/bill-funk-rocks/pages/feedback.vue",
+    "component": "/Users/paul/bill-funk-photography/pages/feedback.vue",
     "chunkName": "pages/feedback",
-    "_name": "_79b1bb6a"
+    "_name": "_9b713f08"
   },
   {
     "name": "gallery",
     "path": "/gallery",
-    "component": "/Users/paul/bill-funk-rocks/pages/gallery/index.vue",
+    "component": "/Users/paul/bill-funk-photography/pages/gallery/index.vue",
     "chunkName": "pages/gallery/index",
-    "_name": "_39340dff"
+    "_name": "_43aff324"
   },
   {
     "name": "gallery-uid",
     "path": "/gallery/:uid",
-    "component": "/Users/paul/bill-funk-rocks/pages/gallery/_uid.vue",
+    "component": "/Users/paul/bill-funk-photography/pages/gallery/_uid.vue",
     "chunkName": "pages/gallery/_uid",
-    "_name": "_b0ff7918"
+    "_name": "_73040125"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "/Users/paul/bill-funk-rocks/pages/index.vue",
+    "component": "/Users/paul/bill-funk-photography/pages/index.vue",
     "chunkName": "pages/index",
-    "_name": "_79a3827c"
+    "_name": "_49b259eb"
   }
 ]

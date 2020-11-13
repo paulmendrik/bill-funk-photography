@@ -1,5 +1,5 @@
 {
-  "title": "funk",
+  "title": "",
   "meta": [
     {
       "hid": "charset",
@@ -16,27 +16,10 @@
       "content": "yes"
     },
     {
-      "hid": "apple-mobile-web-app-title",
-      "name": "apple-mobile-web-app-title",
-      "content": "funk"
-    },
-    {
       "hid": "og:type",
       "name": "og:type",
       "property": "og:type",
       "content": "website"
-    },
-    {
-      "hid": "og:title",
-      "name": "og:title",
-      "property": "og:title",
-      "content": "funk"
-    },
-    {
-      "hid": "og:site_name",
-      "name": "og:site_name",
-      "property": "og:site_name",
-      "content": "funk"
     }
   ],
   "link": [
@@ -51,7 +34,7 @@
     },
     {
       "rel": "manifest",
-      "href": "/_nuxt/manifest.679d96c6.json",
+      "href": "/_nuxt/manifest.20e209a4.json",
       "hid": "manifest"
     }
   ],

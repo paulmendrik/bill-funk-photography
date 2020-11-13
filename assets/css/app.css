@@ -69,6 +69,7 @@ a.uk-logo > h1::after {
 p {
 	font-size: 1.125rem !important;
 	line-height: 1.5625rem !important;
+  color: white !important;
 }
 
 h1.uk-heading-medium > div > h1 {
@@ -286,26 +287,66 @@ h3.uk-card-title > div > *  {
 
 /*Feedback*/
 
+.uk-dropdown {
+  min-width: 320px !important;
+  background: black !important;
+  color: white !important;
+}
+
+.uk-dropdown.uk-open {
+  display: block;
+}
+
+.uk-form-label {
+  font-size: 1.125rem !important;
+  line-height: 1.5625rem !important;
+  color: white !important;
+}
+
+.uk-input, .uk-select, .uk-textarea, textarea {
+  background: rgba(255,255,255,0.9) !important;
+  border: 1px solid #e5e5e5 !important;
+  width: 100% !important;
+  color: black !important;
+}
+
+.uk-button {
+  margin: 0;
+  border: 1px #e5e5e5 solid !important;
+  background: none !important;
+  color: white;
+  font-size: 1rem !important;
+}
+
+
 #comments {
-  padding: 2rem 0 !important;
+  padding: 0 !important;
 }
 
-#graphcomment > iframe {
-  min-width: 100% !important;
-  min-height: 100% !important;
-  height: 10000px !important;
-  overflow: visible !important;
+.uk-comment-list  {
+  margin-top: 2rem !important;
 }
 
-#graphcomment {
-  overflow: visible !important;
-  height: auto;
-  width: 100%;
+.uk-comment-list  h3{
+  margin-top: 2rem !important;
+  padding-bottom: 2rem !important;
+  border-bottom: 1px rgba(255,255,255,0.8) solid !important;
 }
 
-h3.gc-headerItem-comment-number {
-  color: #ffff !important;
+.uk-comment-list > :nth-child(n + 2) {
+  margin-top: 2rem !important;
 }
+
+.uk-comment-list li{
+  padding-bottom: 2rem !important;
+  border-bottom: 1px rgba(255,255,255,0.8) solid !important;
+}
+
+.uk-heading-medium {
+  font-size: 1.5rem !important;
+}
+
+
 
 /**Transitions**/
 

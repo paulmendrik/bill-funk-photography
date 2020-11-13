@@ -17,8 +17,48 @@
 </div>
 
 
-<div id="comments"></div>
-<div id="graphcomment"></div>
+<div id="comments">
+    <button v-on:click="isHidden = !isHidden" class="uk-button uk-margin" type="button">Send Feedback</button>
+    <div v-if="!isHidden" class="form uk-margin">
+      <form  class="uk-grid-small uk-child-width-1-2@m uk-form-stacked" method="POST" action="https://formspree.io/f/xwkwqlge" uk-grid>
+        <fieldset class="uk-fieldset">
+          <legend class="uk-legend">Add Comment</legend>
+        <div class="uk-margin">
+          <label class="uk-form-label">Name</label>
+          <div class="uk-form-controls">
+          <input class="uk-input" type="text" name="name" id="full-name" placeholder="Name" required="">
+          </div>
+        </div>
+        <div class="uk-margin">
+          <label class="uk-form-label" for="form-stacked-select">Email</label>
+          <div class="uk-form-controls">
+          <input class="uk-input" type="email" name="_replyto" id="email-address" placeholder="Email Address" required="">
+          </div>
+        </div>
+        <div class="uk-margin">
+          <label class="uk-form-label">Comment</label>
+          <div class="uk-form-controls">
+          <textarea uk-textarea rows="5" name="message" id="message" placeholder="Comment" required=""></textarea>
+          </div>
+        </div>
+          <input type="hidden" name="_subject" id="email-subject" value="Feedback Submission">
+        <div class="uk-margin">
+          <div class="uk-form-controls">
+          <input class="uk-button" type="submit" value="Send">
+          </div>
+        </div>
+        </fieldset>
+      </form>
+    </div>
+
+
+  <div v-for="(slice, index) in slices" :key="'slice-' + index" >
+    <template v-if="slice.slice_type === 'comments' " >
+      <comments :slice="slice"/>
+    </template>
+  </div>
+</div>
+
 
 </div>
 </div>
@@ -52,30 +92,30 @@
 
 <script>
 
+import Comments from "~/components/Comments.vue";
+
 
 export default {
   name: "Feedback",
   transition: "page",
+  components: {Comments},
   head: {
     title: 'Bill Funk - Feedback',
   },
-  mounted() {
-    window.gc_params = {
-      graphcomment_id: 'Bill-Funk',
-      fixed_header_height: 100,
+  data() {
+    return {
+      isHidden: true,
+      slices: [],
     };
-    (function() {
-      var gc = document.createElement('script'); gc.type = 'text/javascript'; gc.async = true;
-      gc.src = 'https://graphcomment.com/js/integration.js?' + Math.round(Math.random() * 1e8);
-      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
-    })();
   },
   async asyncData({ $prismic, error }) {
     try {
       const feedback = (await $prismic.api.getSingle('feedback')).data
+      const document = (await $prismic.api.getSingle('comments')).data
 
       return {
-        feedback
+        feedback,
+        slices: document.body,
       };
     } catch (e) {
       error({ statusCode: 404, message: "Page not found" });
@@ -83,6 +123,10 @@ export default {
   }
 }
 </script>
+
+<style>
+
+</style>
 
 
 

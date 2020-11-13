@@ -3,12 +3,12 @@ import Router from 'vue-router'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _658fa440 = () => interopDefault(import('./prismic/pages/preview.vue' /* webpackChunkName: "" */))
-const _59eba7b7 = () => interopDefault(import('../pages/about.vue' /* webpackChunkName: "pages/about" */))
-const _79b1bb6a = () => interopDefault(import('../pages/feedback.vue' /* webpackChunkName: "pages/feedback" */))
-const _39340dff = () => interopDefault(import('../pages/gallery/index.vue' /* webpackChunkName: "pages/gallery/index" */))
-const _b0ff7918 = () => interopDefault(import('../pages/gallery/_uid.vue' /* webpackChunkName: "pages/gallery/_uid" */))
-const _79a3827c = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _6460474f = () => interopDefault(import('./prismic/pages/preview.vue' /* webpackChunkName: "" */))
+const _29fa7f26 = () => interopDefault(import('../pages/about.vue' /* webpackChunkName: "pages/about" */))
+const _9b713f08 = () => interopDefault(import('../pages/feedback.vue' /* webpackChunkName: "pages/feedback" */))
+const _43aff324 = () => interopDefault(import('../pages/gallery/index.vue' /* webpackChunkName: "pages/gallery/index" */))
+const _73040125 = () => interopDefault(import('../pages/gallery/_uid.vue' /* webpackChunkName: "pages/gallery/_uid" */))
+const _49b259eb = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 // TODO: remove in Nuxt 3
 const emptyFn = () => {}
@@ -28,27 +28,27 @@ export const routerOptions = {
 
   routes: [{
     path: "/preview",
-    component: _658fa440,
+    component: _6460474f,
     name: "prismic-preview"
   }, {
     path: "/about",
-    component: _59eba7b7,
+    component: _29fa7f26,
     name: "about"
   }, {
     path: "/feedback",
-    component: _79b1bb6a,
+    component: _9b713f08,
     name: "feedback"
   }, {
     path: "/gallery",
-    component: _39340dff,
+    component: _43aff324,
     name: "gallery"
   }, {
     path: "/gallery/:uid",
-    component: _b0ff7918,
+    component: _73040125,
     name: "gallery-uid"
   }, {
     path: "/",
-    component: _79a3827c,
+    component: _49b259eb,
     name: "index"
   }],
 

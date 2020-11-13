@@ -25,11 +25,12 @@
 <offcanvas :slice="slice"/>
 </template>
 </div>
+
 </div>
 </template>
 
 <script>
-import LinkResolver from "~/plugins/link-resolver.js";
+
 import Sidebar from "~/components/Sidebar.vue";
 import Offcanvas from "~/components/Offcanvas.vue";
 
