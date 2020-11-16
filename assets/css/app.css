@@ -352,7 +352,29 @@ h3.uk-card-title > div > *  {
   font-size: 1.5rem !important;
 }
 
+ul.uk-pagination > li {
+  padding: 0.625rem 1rem !important;
+  background-color: #1c2228 !important;
+  border: 1px solid #000 !important;
+  line-height: 1.42857143 !important;
 
+}
+
+ul.uk-pagination > li  a:focus,
+ul.uk-pagination >  li  a:hover {
+  color: #fff;
+  background-color: #000 !important;
+  border-color: #000 !important;
+}
+
+ul.uk-pagination >  li  a.uk-active,
+ul.uk-pagination >  li  a.uk-active:focus,
+ul.uk-pagination >   li  a.uk-active:hover {
+  color: #fff;
+  cursor: default;
+  background: linear-gradient(-68deg, #000, #000) !important;
+  border-color: #000 !important;
+}
 
 /**Transitions**/
 

@@ -2,30 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2c6bd77-d8cd-417c-9c3c-8f3a951d2f8a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.nuxt/components/nuxt-build-indicator.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/749dba92c89ac078e1093194396e2d0f.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/8ad2e8eed0be309bf8d3523397e21ff1.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/ad3cb6df3629b517b1896e2e427bde1e.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/df404ca8c1ce06544601f9e34cfd6e47.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/nuxt/dist/client/f78bc38.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/gallery/2.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/gallery/3.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/gallery/4.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.nuxt/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.nuxt/client.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/client.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.nuxt/components/nuxt-error.vue" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/components/nuxt-error.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.nuxt/components/nuxt-link.client.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/components/nuxt-link.client.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/0294adc.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/1024439.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/4014c07.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/5d49d2f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/7448ec4.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/987dcca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/9ea1312.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/LICENSES" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/ac1812a.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/ad124cc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/b3ce8b6.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/b8b9d83.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/d21db31.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/f507805.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/fb9ab0c.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/manifest.20e209a4.json" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/dist/client/manifest.679d96c6.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/a556b26.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/a952bb9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/b9956f7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/c1dca81.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/d655835.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/d834820.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/6.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/6.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/client.manifest.json" beforeDir="false" />
@@ -48,85 +44,15 @@
       <change beforePath="$PROJECT_DIR$/.nuxt/loading.html" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/loading.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.nuxt/mixins/fetch.client.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/mixins/fetch.client.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.nuxt/pwa/meta.json" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/pwa/meta.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/router.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.nuxt/routes.json" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/routes.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.nuxt/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.nuxt/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/utils.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.nuxt/views/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/views/error.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.nuxt/workbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/workbox.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Photos.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/Photos.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/.nojekyll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/200.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_nuxt/0271a85.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_nuxt/2644e41.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_nuxt/310689b.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_nuxt/4284c76.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/nuxt/dist/client/a1e386e.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_nuxt/5da4838.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_nuxt/5e0b894.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_nuxt/LICENSES" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_nuxt/ad615ee.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_nuxt/b2f95b1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_nuxt/c69e787.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_nuxt/d9e1f19.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_nuxt/fbfd77d.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_nuxt/icons/icon_120x120.2227fa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_nuxt/icons/icon_144x144.2227fa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_nuxt/icons/icon_152x152.2227fa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_nuxt/icons/icon_192x192.2227fa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_nuxt/icons/icon_384x384.2227fa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_nuxt/icons/icon_512x512.2227fa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_nuxt/icons/icon_64x64.2227fa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_nuxt/icons/splash_ipad_1536x2048.2227fa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_nuxt/icons/splash_ipadpro10_1668x2224.2227fa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_nuxt/icons/splash_ipadpro12_2048x2732.2227fa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_nuxt/icons/splash_ipadpro9_1536x2048.2227fa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_nuxt/icons/splash_iphone6_50x1334.2227fa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_nuxt/icons/splash_iphoneplus_1080x1920.2227fa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_nuxt/icons/splash_iphonese_640x1136.2227fa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_nuxt/icons/splash_iphonex_1125x2436.2227fa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_nuxt/icons/splash_iphonexr_828x1792.2227fa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_nuxt/icons/splash_iphonexsmax_1242x2688.2227fa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_nuxt/manifest.20e209a4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605265083/about/payload.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605265083/feedback/payload.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605265083/gallery/payload.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605265083/payload.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605265083/preview/payload.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/about/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/about/payload.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/about/payload.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/feedback/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/feedback/payload.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/feedback/payload.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/gallery/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/gallery/payload.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/gallery/payload.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/payload.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/payload.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/preview/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/preview/payload.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/preview/payload.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/sw.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/nuxt/build.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/nuxt/build.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/nuxt/dist/client/2644e41.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/nuxt/dist/client/c30da7e.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/nuxt/dist/client/310689b.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/nuxt/dist/client/9af1228.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/nuxt/dist/client/4284c76.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/nuxt/dist/client/b2f95b1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/nuxt/dist/server/client.manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/nuxt/dist/server/client.manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/nuxt/dist/server/index.spa.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/nuxt/dist/server/index.spa.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/nuxt/dist/server/pages/gallery/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/nuxt/dist/server/pages/gallery/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/nuxt/dist/server/pages/gallery/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/nuxt/dist/server/pages/gallery/index.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/nuxt/dist/server/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/nuxt/dist/server/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/nuxt/dist/server/pages/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/nuxt/dist/server/pages/index.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/nuxt/dist/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/nuxt/dist/server/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/nuxt/dist/server/server.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/nuxt/dist/server/server.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/nuxt/routes.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/nuxt/routes.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nuxt.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/nuxt.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/gallery/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/gallery/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/sw.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/sw.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -145,7 +71,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pages/gallery" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -158,6 +84,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pages/gallery" />
       <recent name="$PROJECT_DIR$/layouts" />
       <recent name="$PROJECT_DIR$/components" />
     </key>
@@ -185,7 +112,9 @@
       <workItem from="1605100134825" duration="12873000" />
       <workItem from="1605172297103" duration="8811000" />
       <workItem from="1605195614073" duration="3198000" />
-      <workItem from="1605255467874" duration="13070000" />
+      <workItem from="1605255467874" duration="13670000" />
+      <workItem from="1605515860165" duration="8000" />
+      <workItem from="1605519333580" duration="5412000" />
     </task>
     <servers />
   </component>

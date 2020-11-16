@@ -25,6 +25,12 @@
 <offcanvas :slice="slice"/>
 </template>
 </div>
+  <ul class="uk-pagination uk-flex-center" uk-margin>
+    <li><a class="uk-active" href="/gallery">1</a></li>
+    <li><a href="/gallery/2">2</a></li>
+    <li><a href="/gallery/3">3</a></li>
+    <li><a href="/gallery/4">4</a></li>
+  </ul>
 
 </div>
 </template>
@@ -59,7 +65,7 @@ try {
   const galleryPhotos = await $prismic.api.query(
 
     $prismic.predicates.at("document.type", "photo"),
-    { orderings : '[my.photo.date desc]' },
+    { orderings : '[my.photo.date desc]' , pageSize : 25, page : 1},
   )
 
 return {
