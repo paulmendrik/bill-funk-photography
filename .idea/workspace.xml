@@ -2,58 +2,438 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2c6bd77-d8cd-417c-9c3c-8f3a951d2f8a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/gallery/2.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/gallery/3.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/gallery/4.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/client.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/client.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/components/nuxt-error.vue" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/components/nuxt-error.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/components/nuxt-link.client.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/components/nuxt-link.client.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/0294adc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/1024439.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/7448ec4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/987dcca.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/9ea1312.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/LICENSES" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/a556b26.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/a952bb9.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/b9956f7.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/c1dca81.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/d655835.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/d834820.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/6.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/6.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/client.manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/index.spa.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/index.ssr.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/pages/about.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/pages/about.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/pages/feedback.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/pages/feedback.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/pages/gallery/_uid.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/pages/gallery/_uid.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/pages/gallery/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/pages/gallery/index.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/pages/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/pages/index.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/server.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/server.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/server.manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/loading.html" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/loading.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/mixins/fetch.client.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/mixins/fetch.client.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/2be489f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/30e564b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/3b9f586.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/3efbca1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/6042b04.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/62fd15f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/7d0258c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/manifest.20e209a4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/client.manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/dist/server/client.manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/index.spa.html" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/dist/server/index.spa.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/pages/gallery/2.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/dist/server/pages/gallery/2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/pages/gallery/2.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/dist/server/pages/gallery/2.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/pages/gallery/3.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/dist/server/pages/gallery/3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/pages/gallery/3.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/dist/server/pages/gallery/3.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/pages/gallery/4.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/dist/server/pages/gallery/4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/pages/gallery/4.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/dist/server/pages/gallery/4.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/pages/gallery/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/dist/server/pages/gallery/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/pages/gallery/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/dist/server/pages/gallery/index.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/dist/server/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/pages/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/dist/server/pages/index.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/dist/server/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.nuxt/pwa/meta.json" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/pwa/meta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/routes.json" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/routes.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/views/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/views/error.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/workbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/workbox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Offcanvas.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/Offcanvas.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Sidebar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/Sidebar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/.nojekyll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/200.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/1051aaa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/16c6a05.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/16db9b0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/178d441.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/3224f4b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/384d41b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/70be9f7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/7bddb92.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/81e5f6e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/8620344.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/LICENSES" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/c331f16.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/c48b60e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/c4cb5fe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/e4fee20.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/icons/icon_120x120.2227fa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/icons/icon_144x144.2227fa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/icons/icon_152x152.2227fa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/icons/icon_192x192.2227fa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/icons/icon_384x384.2227fa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/icons/icon_512x512.2227fa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/icons/icon_64x64.2227fa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/icons/splash_ipad_1536x2048.2227fa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/icons/splash_ipadpro10_1668x2224.2227fa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/icons/splash_ipadpro12_2048x2732.2227fa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/icons/splash_ipadpro9_1536x2048.2227fa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/icons/splash_iphone6_50x1334.2227fa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/icons/splash_iphoneplus_1080x1920.2227fa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/icons/splash_iphonese_640x1136.2227fa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/icons/splash_iphonex_1125x2436.2227fa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/icons/splash_iphonexr_828x1792.2227fa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/icons/splash_iphonexsmax_1242x2688.2227fa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/manifest.20e209a4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/about/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/feedback/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/2/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/3/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/4/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/algarve-dogs/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/alone-on-stilts/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/art/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/axes-/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/bagwash/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/beached/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/before-midnight/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/big-fishing/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/bill-funk-photography/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/bling-thing/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/boo-/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/bulow-plantation/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/christmas-curls/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/close/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/clyde/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/cover-art/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/dawn-execution/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/day-one/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/deagol/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/dearly-beloved/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/dont-stop-zincing/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/funchs-the-scream/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/gaspars-shop/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/get-mad/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/girl-factory/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/godmother-arianna/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/growing-pain---not-/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/growing-pain/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/happy-new-year-yer-goin-to-the-moon/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/hate-the-camera/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/heartbreak-hotel/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/hollow-man/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/i-know-what-you-did-last-summer/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/ice-girl/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/iluigi/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/indian-river-fruit/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/inspired-by-those-devices-run-by-the--electricity-generated/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/justice-for-all/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/kandy-kit/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/lady-madonna/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/leaving/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/litchfield/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/lookin-sharp/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/luigis-baptism/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/matteo/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/maud-is-the-wife-of-john-my-friend-of-over-45-years/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/midnight-cocktail/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/mission-impossible/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/mountain-lake-at-dusk/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/new-arrival-/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/octobers-child/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/one-of-our-kittens-of-years-ago-oj-gazing-into-a/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/pier-pressure/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/rat-cat/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/sally/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/sanctuary/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/scratch-in-the-pot/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/scratch-our-siamese-photographed-with-what-would/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/sinsemilia/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/sleepless-in-manhattan/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/slide/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/smeagol/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/sparkle--smack/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/spooky-road/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/storm-devil/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/sunflower-scratch/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/surf-on-baba/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/tangerine-dream/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/tequila-sunrise/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/the-fabulous-cuprano/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/the-flight-home/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/the-image-started-with-a-picture-of-the-beautifully/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/the-rhino-cage/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/the-rock/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/these-boots-were-made-for-scratchin/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/tonys-dad/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/vicky--luigi/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/waterburst/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/whatnot-shelf/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/whats-on-my-stove/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/williams-ark/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/windows-of-the-algarve/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/gallery/winter-in-tervuren/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_nuxt/static/1605528050/preview/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/about/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/about/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/about/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/feedback/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/feedback/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/feedback/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/2/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/2/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/2/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/3/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/3/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/3/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/4/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/4/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/4/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/algarve-dogs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/algarve-dogs/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/algarve-dogs/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/alone-on-stilts/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/alone-on-stilts/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/alone-on-stilts/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/art/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/art/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/art/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/axes-/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/axes-/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/axes-/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/bagwash/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/bagwash/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/bagwash/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/beached/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/beached/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/beached/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/before-midnight/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/before-midnight/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/before-midnight/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/big-fishing/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/big-fishing/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/big-fishing/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/bill-funk-photography/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/bill-funk-photography/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/bill-funk-photography/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/bling-thing/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/bling-thing/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/bling-thing/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/boo-/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/boo-/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/boo-/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/bulow-plantation/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/bulow-plantation/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/bulow-plantation/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/christmas-curls/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/christmas-curls/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/christmas-curls/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/close/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/close/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/close/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/clyde/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/clyde/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/clyde/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/cover-art/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/cover-art/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/cover-art/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/dawn-execution/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/dawn-execution/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/dawn-execution/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/day-one/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/day-one/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/day-one/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/deagol/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/deagol/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/deagol/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/dearly-beloved/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/dearly-beloved/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/dearly-beloved/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/dont-stop-zincing/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/dont-stop-zincing/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/dont-stop-zincing/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/funchs-the-scream/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/funchs-the-scream/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/funchs-the-scream/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/gaspars-shop/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/gaspars-shop/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/gaspars-shop/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/get-mad/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/get-mad/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/get-mad/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/girl-factory/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/girl-factory/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/girl-factory/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/godmother-arianna/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/godmother-arianna/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/godmother-arianna/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/growing-pain---not-/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/growing-pain---not-/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/growing-pain---not-/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/growing-pain/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/growing-pain/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/growing-pain/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/happy-new-year-yer-goin-to-the-moon/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/happy-new-year-yer-goin-to-the-moon/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/happy-new-year-yer-goin-to-the-moon/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/hate-the-camera/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/hate-the-camera/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/hate-the-camera/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/heartbreak-hotel/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/heartbreak-hotel/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/heartbreak-hotel/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/hollow-man/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/hollow-man/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/hollow-man/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/i-know-what-you-did-last-summer/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/i-know-what-you-did-last-summer/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/i-know-what-you-did-last-summer/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/ice-girl/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/ice-girl/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/ice-girl/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/iluigi/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/iluigi/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/iluigi/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/indian-river-fruit/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/indian-river-fruit/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/indian-river-fruit/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/inspired-by-those-devices-run-by-the--electricity-generated/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/inspired-by-those-devices-run-by-the--electricity-generated/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/inspired-by-those-devices-run-by-the--electricity-generated/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/justice-for-all/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/justice-for-all/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/justice-for-all/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/kandy-kit/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/kandy-kit/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/kandy-kit/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/lady-madonna/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/lady-madonna/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/lady-madonna/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/leaving/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/leaving/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/leaving/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/litchfield/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/litchfield/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/litchfield/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/lookin-sharp/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/lookin-sharp/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/lookin-sharp/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/luigis-baptism/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/luigis-baptism/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/luigis-baptism/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/matteo/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/matteo/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/matteo/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/maud-is-the-wife-of-john-my-friend-of-over-45-years/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/maud-is-the-wife-of-john-my-friend-of-over-45-years/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/maud-is-the-wife-of-john-my-friend-of-over-45-years/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/midnight-cocktail/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/midnight-cocktail/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/midnight-cocktail/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/mission-impossible/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/mission-impossible/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/mission-impossible/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/mountain-lake-at-dusk/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/mountain-lake-at-dusk/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/mountain-lake-at-dusk/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/new-arrival-/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/new-arrival-/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/new-arrival-/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/octobers-child/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/octobers-child/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/octobers-child/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/one-of-our-kittens-of-years-ago-oj-gazing-into-a/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/one-of-our-kittens-of-years-ago-oj-gazing-into-a/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/one-of-our-kittens-of-years-ago-oj-gazing-into-a/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/pier-pressure/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/pier-pressure/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/pier-pressure/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/rat-cat/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/rat-cat/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/rat-cat/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/sally/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/sally/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/sally/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/sanctuary/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/sanctuary/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/sanctuary/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/scratch-in-the-pot/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/scratch-in-the-pot/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/scratch-in-the-pot/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/scratch-our-siamese-photographed-with-what-would/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/scratch-our-siamese-photographed-with-what-would/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/scratch-our-siamese-photographed-with-what-would/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/sinsemilia/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/sinsemilia/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/sinsemilia/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/sleepless-in-manhattan/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/sleepless-in-manhattan/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/sleepless-in-manhattan/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/slide/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/slide/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/slide/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/smeagol/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/smeagol/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/smeagol/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/sparkle--smack/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/sparkle--smack/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/sparkle--smack/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/spooky-road/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/spooky-road/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/spooky-road/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/storm-devil/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/storm-devil/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/storm-devil/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/sunflower-scratch/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/sunflower-scratch/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/sunflower-scratch/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/surf-on-baba/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/surf-on-baba/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/surf-on-baba/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/tangerine-dream/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/tangerine-dream/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/tangerine-dream/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/tequila-sunrise/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/tequila-sunrise/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/tequila-sunrise/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/the-fabulous-cuprano/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/the-fabulous-cuprano/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/the-fabulous-cuprano/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/the-flight-home/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/the-flight-home/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/the-flight-home/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/the-image-started-with-a-picture-of-the-beautifully/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/the-image-started-with-a-picture-of-the-beautifully/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/the-image-started-with-a-picture-of-the-beautifully/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/the-rhino-cage/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/the-rhino-cage/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/the-rhino-cage/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/the-rock/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/the-rock/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/the-rock/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/these-boots-were-made-for-scratchin/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/these-boots-were-made-for-scratchin/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/these-boots-were-made-for-scratchin/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/tonys-dad/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/tonys-dad/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/tonys-dad/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/vicky--luigi/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/vicky--luigi/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/vicky--luigi/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/waterburst/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/waterburst/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/waterburst/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/whatnot-shelf/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/whatnot-shelf/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/whatnot-shelf/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/whats-on-my-stove/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/whats-on-my-stove/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/whats-on-my-stove/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/williams-ark/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/williams-ark/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/williams-ark/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/windows-of-the-algarve/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/windows-of-the-algarve/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/windows-of-the-algarve/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/winter-in-tervuren/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/winter-in-tervuren/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery/winter-in-tervuren/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/preview/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/preview/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/preview/payload.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/sw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/gallery/2.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/gallery/2.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/gallery/3.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/gallery/3.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/gallery/4.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/gallery/4.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/gallery/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/gallery/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/sw.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/sw.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +451,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pages/gallery" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -115,6 +495,8 @@
       <workItem from="1605255467874" duration="13670000" />
       <workItem from="1605515860165" duration="8000" />
       <workItem from="1605519333580" duration="5412000" />
+      <workItem from="1605527841304" duration="503000" />
+      <workItem from="1606750422562" duration="1443000" />
     </task>
     <servers />
   </component>

@@ -65,7 +65,7 @@ try {
   const galleryPhotos = await $prismic.api.query(
 
     $prismic.predicates.at("document.type", "photo"),
-    { orderings : '[my.photo.date desc]' , pageSize : 25, page : 2},
+    { orderings : '[document.last_publication_date desc]' , pageSize : 25, page : 2},
   )
 
 return {

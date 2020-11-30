@@ -60,12 +60,10 @@ async asyncData({ $prismic, error }) {
 try {
 
   const document = (await $prismic.api.getSingle('gallery')).data
-
-
   const galleryPhotos = await $prismic.api.query(
 
     $prismic.predicates.at("document.type", "photo"),
-    { orderings : '[my.photo.date desc]' , pageSize : 25, page : 1},
+    { orderings : '[document.last_publication_date desc]' , pageSize : 25, page : 1},
   )
 
 return {

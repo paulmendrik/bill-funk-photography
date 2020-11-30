@@ -8,15 +8,14 @@ exports.modules = {
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./node_modules/string-replace-loader??ref--13!./pages/index.vue?vue&type=template&id=1539b239&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"overlay",class:{ toggle: _vm.clicked }},[_vm._ssrNode("<div uk-sticky class=\"uk-navbar-container uk-navbar-transparent\"><div class=\"uk-container uk-container-expand\"><nav class=\"uk-navbar\"><div class=\"uk-navbar-left\"><a href=\"/\" class=\"uk-navbar-item uk-logo\"><h1>Bill Funk</h1></a></div> <div class=\"uk-navbar-right\"></div></nav></div></div> <div class=\"bottom\"><p>&quot;This is not a virus. It’s a highly contagious Shutterbug. And I got bitten.&quot;</p> <a href=\"/gallery\" class=\"uk-button\">Enter</a></div>")])}
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./node_modules/string-replace-loader??ref--13!./pages/index.vue?vue&type=template&id=ac1697f2&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"overlay",class:{ toggle: _vm.clicked }},[_vm._ssrNode("<div uk-sticky class=\"uk-navbar-container uk-navbar-transparent\"><div class=\"uk-container uk-container-expand\"><nav class=\"uk-navbar\"><div class=\"uk-navbar-left\"><a href=\"/\" class=\"uk-navbar-item uk-logo\"><h1>Bill Funk</h1></a></div> <div class=\"uk-navbar-right\"></div></nav></div></div> <div class=\"bottom\"><a href=\"/gallery\" class=\"uk-button\">Enter</a></div>")])}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./pages/index.vue?vue&type=template&id=1539b239&
+// CONCATENATED MODULE: ./pages/index.vue?vue&type=template&id=ac1697f2&
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./node_modules/string-replace-loader??ref--13!./pages/index.vue?vue&type=script&lang=js&
-//
 //
 //
 //
